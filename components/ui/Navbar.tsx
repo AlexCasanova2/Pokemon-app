@@ -29,7 +29,7 @@ export const Navbar = () => {
 
         <Spacer css={{flex:1}}/>
 
-        <Text color="white">Favoritos</Text>
+        <Text color="white"><Link href={'/favorites'}>Favoritos</Link></Text>
     </div>
   )
 }
